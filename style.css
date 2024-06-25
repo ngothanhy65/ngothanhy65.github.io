@@ -1,0 +1,29 @@
+.div-out{
+    width: 200px;
+    height: 200px;
+    background-color: #3F1D38;
+    position: relative;
+    border-radius: 24px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.div-in img{
+    border-radius: 16px;
+    width: 184px;
+    height: 184px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+main{
+    border-radius: 5px;
+    background-color: #E19898;
+    margin: 0 10px;
+}
+p, li{
+    color: 321E1E;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
